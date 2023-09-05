@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(51, 51, 51);
+    color: #fff;
+}
+h1{
+    color: #fff;
+    text-align: center;
+}
+.global{
+    margin-left: 15%;
+    margin-top: 3%;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options{
+    height: 660px;
+    width: 300px;
+    background-color: #242424;
+    /* border: 10px outset black; */
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 50px;
+    padding-top: 5%;
+    padding-top: 15%;
+
+}
+.container{
+    height: 660px;
+    width: 660px;
+    background-color: #fff;
+    border: 25px outset black;
+    display: inline-block;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sizeParameter{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.size{
+    display: inline-block;
+}
+
+.sizeView{
+    display: inline-block;
+    color: #fff;
+    font-size: 1.3rem;
+
+}
+
+.otherOptions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.color{
+    font-size: 1.3rem;
+}
+/* Styles pour l'input de type couleur */
+#color {
+    width: 80px; /* Ajustez la taille du cercle selon vos besoins */
+    height: 80px; /* Ajustez la taille du cercle selon vos besoins */
+    border: 1px solid transparent; /* Supprimez la bordure par défaut */
+    border-radius: 50%; /* Arrondissez les coins pour créer un cercle */
+    padding: 0; /* Supprimez tout espacement interne */
+    appearance: none; /* Supprimez les styles de l'apparence par défaut du navigateur */
+}
+
+#color::-webkit-color-swatch-wrapper {
+    padding: 0; /* Supprimez tout espacement interne */
+}
+
+#color::-webkit-color-swatch {
+    border: none; /* Supprimez la bordure autour du cercle */
+    border-radius: 50%; /* Arrondissez les coins pour créer un cercle */
+}
+.btn{
+    margin-top: 15px;
+    width: 70%;
+    height: 35px;
+    border: 1px solid rgb(15, 166, 242);
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+.btn:hover{
+    background-color: rgb(15, 166, 242);
+    color: #fff;
+}
+.btn:active{
+    background-color: rgb(72, 188, 246);
+    color: #fff;
+}
