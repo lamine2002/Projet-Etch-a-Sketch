@@ -46,7 +46,10 @@ document.addEventListener('DOMContentLoaded', function () {
                     hoverEnabled = !hoverEnabled;
                     if (hoverEnabled) {
                         if (activeRainbow) {
-                            // Laisser la couleur telle quelle pour le mode "rainbow"
+                            let random1 = Math.floor(Math.random() * 256);
+                            let random2 = Math.floor(Math.random() * 256);
+                            let random3 = Math.floor(Math.random() * 256);
+                            element.style.backgroundColor = `rgb(${random1}, ${random2}, ${random3})`;
                         } else {
                             element.style.backgroundColor = color; // Utiliser la couleur unique si "rainbow" est désactivé
                         }
